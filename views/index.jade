@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+  title Jade Example
+  link(rel="stylesheet", href="style.css")
+
+  body
+    h1 Array Demo
+    for user in users
+      h2= user.u_name
+      .media= user.media_name
